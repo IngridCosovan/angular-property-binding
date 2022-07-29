@@ -1,0 +1,13 @@
+<h1>Two Way Data Binding</h1>
+<input type="text" [(ngModel)]="title" />
+<h2>{{ title }}</h2>
+<br />
+<h1>String Interpolation</h1>
+<h2>My name is {{ name }}.</h2>
+<br />
+<h1>Event Binding</h1>
+<p>My name is {{ nameeventbinding }}</p>
+<button (click)="updateName()">Update name button</button>
+<br />
+<h1>Property Binding</h1>
+<button [disabled]="buttonDisabled">Button Property Binding</button>
